@@ -1,0 +1,66 @@
+/* Reset some default browser styles */
+body, h1, h2, ul, p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Add a background color and some padding around the entire page */
+  body {
+    background-color: #f4f4f4;
+    color: #333;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  /* Style the header section */
+  header {
+    background-color: #ebc144;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  /* Style the navigation menu */
+  nav ul {
+    background-color: #eaba1d;
+    overflow: hidden;
+    color: white;
+  }
+  
+  nav ul li {
+    float: left;
+    display: inline;
+    padding: 14px 16px;
+  }
+  
+  /* Style the main content */
+  main {
+    margin: 15px;
+    padding: 15px;
+    background-color: #fff;
+  }
+  
+  .blog-post {
+    margin-bottom: 20px;
+  }
+  
+  .blog-post h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .blog-post .date {
+    font-size: 14px;
+    color: #888;
+    margin-bottom: 10px;
+  }
+  
+  /* Style the footer */
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+  }
+  
